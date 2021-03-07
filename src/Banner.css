@@ -1,0 +1,48 @@
+.banner {
+  background: url("https://a0.muscache.com/im/pictures/166791ff-bc82-4b88-ba3d-49be1d462dce.jpg?im_w=1920")
+    center;
+  height: 65vh;
+  position: relative;
+  background-size: cover;
+}
+
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+    background-color: white!important;
+    text-transform: inherit!important;
+    color:#ff7779!important;
+    font-weight: 600!important;
+
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  padding-top: 25vh;
+  padding-left: 50px;
+  width: 300px;
+  padding-bottom: 40px;
+  padding-right: 50px;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+}
+
+.banner__info > button:hover {
+    background-color: white;
+    color:#ff777
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
+
+
